@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800");
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: 10;
+  height: 150px;
+  width: 100%;
+  background: #E84C3D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav .title {
+  font-size: 4em;
+  font-weight: bold;
+  color: white;
+}
+
+.nav .search {
+  right: .5em;
+  color: white;
+  font-size: 3.5em;
+  position: absolute;
+}
+
+.nav .profile {
+  left: .5em;
+  color: white;
+  font-size: 3.5em;
+  position: absolute;
+}
+
+.bars-content {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  height: calc(100% - 150px);
+  width: 100%;
+}
+
+.bars-content .filter-section {
+  height: 150px;
+  width: 100%;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  box-sizing: border-box;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.bars-content .filter-section .filter-icon {
+  background-image: url("../img/filter.png");
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bars-content .filter-section .filter-text {
+  padding-top: 80px;
+  text-align: center;
+  font-size: .7em;
+  color: black;
+}
+
+.bars-content .bars-near {
+  width: 100%;
+  height: 75px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #999;
+  padding: 40px;
+  box-sizing: border-box;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bars-content .bars-near .bar-count {
+  font-weight: 400;
+}
+
+.bars-content .bars-near .bar-count .current-count {
+  display: inline;
+}
+
+.bars-content .bars-near .bar-count .total-count {
+  display: inline;
+}
+
+.bars-content .bars-near .show-map {
+  display: inline;
+  font-weight: 800;
+}
+
+.bars-content .bar {
+  width: 100%;
+  height: 20%;
+  border-bottom: 1px solid #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.bars-content .bar .img-section {
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+}
+
+.bars-content .bar .img-section img {
+  width: 70%;
+}
+
+.bars-content .bar .info-section {
+  height: 100%;
+  position: absolute;
+  width: 70%;
+  left: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.bars-content .bar .info-section .name {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.bars-content .bar .info-section .description {
+  font-size: 2em;
+}
+
+.bars-content .bar .info-section .distance {
+  font-size: 2em;
+}
+
+.bars-content .bar .info-section .price {
+  margin-top: 20px;
+  font-size: 2.5em;
+}
+
+.bars-content .bar .info-section .card-min {
+  position: absolute;
+  right: 7%;
+  bottom: 15%;
+}
+
+.bars-content .bar .info-section .card-min .title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.bars-content .bar .info-section .card-min .bottom-text {
+  font-size: 1.7em;
+}
