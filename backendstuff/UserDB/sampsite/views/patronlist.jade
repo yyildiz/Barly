@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h3.
+    Patrons
+  ul
+    each patron, i in patronlist
+        li#patron_list_item
+            a(href="#") #{patron.patron}'s favorite drink is a #{patron.drink}. Their secret code is #{patron.currentcode}.

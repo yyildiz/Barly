@@ -1,0 +1,561 @@
+{
+    _id: "Josiah Jenkins"
+    name: "User Name"
+    email: "jjenkins@jmail.com"
+    profile: {
+        friends: [
+            friend: {
+                name: "Sam",
+                favorites: [
+                    favorite: "Fireball",
+                    favorite: "Vodka Cranberry",
+                    favorite: "Ginger Ale & Whisky"
+                ]
+            },
+            friend: {
+                name: "John",
+                favorites: [
+                    favorite: "Fireball",
+                    favorite: "Vodka Cranberry",
+                    favorite: "Ginger Ale & Whisky"
+                ]
+            },
+            friend: {
+                name: "Christine",
+                favorites: [
+                    favorite: "Fireball",
+                    favorite: "Cherry Purp",
+                    favorite: "Beer"
+                ]
+            },
+            friend: {
+                name: "Momoh",
+                favorites: [
+                    favorite: "Corona Beer",
+                    favorite: "Rum & Coke",
+                    favorite: "Ginger Ale & Whisky"
+                ]
+            }
+        ]
+        favorites: [
+            favorite: "Fireball",
+            favorite: "Vodka Cranberry",
+            favorite: "Ginger Ale & Whisky"
+        ]
+
+    }
+    customerID: "stripeToken"
+    currentCode: "PurpleGiraffe"
+}
+{
+    _id: "jBartlett"
+    name: "JasonBartlett"
+    email: "jbartlet@jmail.com"
+    profile: {
+        friends: [
+            friend: {
+                name: "Sam",
+                favorites: [
+                    favorite: "Fireball",
+                    favorite: "Vodka Cranberry",
+                    favorite: "Ginger Ale & Whisky"
+                ]
+            },
+            friend: {
+                name: "John",
+                favorites: [
+                    favorite: "Fireball",
+                    favorite: "Vodka Cranberry",
+                    favorite: "Ginger Ale & Whisky"
+                ]
+            },
+            friend: {
+                name: "Christine",
+                favorites: [
+                    favorite: "Fireball",
+                    favorite: "Cherry Purp",
+                    favorite: "Beer"
+                ]
+            },
+            friend: {
+                name: "Momoh",
+                favorites: [
+                    favorite: "Corona Beer",
+                    favorite: "Rum & Coke",
+                    favorite: "Ginger Ale & Whisky"
+                ]
+            }
+        ]
+        favorites: [
+            favorite: "Fireball",
+            favorite: "Vodka Cranberry",
+            favorite: "Ginger Ale & Whisky"
+        ]
+
+    }
+    customerID: "stripeToken"
+    currentCode: "PurpleGiraffe"
+}
+
+{
+    _id: "Josiah Jenkins"
+    name: "User Name"
+    email: "jjenkins@jmail.com"
+    profile: {
+        friends: [
+            friend: {
+                name: "Sam",
+                favorites: [
+                    favorite: "Fireball",
+                    favorite: "Vodka Cranberry",
+                    favorite: "Ginger Ale & Whisky"
+                ]
+            },
+            friend: {
+                name: "John",
+                favorites: [
+                    favorite: "Fireball",
+                    favorite: "Vodka Cranberry",
+                    favorite: "Ginger Ale & Whisky"
+                ]
+            },
+            friend: {
+                name: "Christine",
+                favorites: [
+                    favorite: "Fireball",
+                    favorite: "Cherry Purp",
+                    favorite: "Beer"
+                ]
+            },
+            friend: {
+                name: "Momoh",
+                favorites: [
+                    favorite: "Corona Beer",
+                    favorite: "Rum & Coke",
+                    favorite: "Ginger Ale & Whisky"
+                ]
+            }
+        ]
+        favorites: [
+            favorite: "Fireball",
+            favorite: "Vodka Cranberry",
+            favorite: "Ginger Ale & Whisky"
+        ]
+
+    }
+    customerID: "stripeToken"
+    currentCode: "PurpleGiraffe"
+}
+
+{
+    _id: "Josiah Jenkins"
+    name: "User Name"
+    email: "jjenkins@jmail.com"
+    profile: {
+        friends: [
+            friend: {
+                name: "Sam",
+                favorites: [
+                    favorite: "Fireball",
+                    favorite: "Vodka Cranberry",
+                    favorite: "Ginger Ale & Whisky"
+                ]
+            },
+            friend: {
+                name: "John",
+                favorites: [
+                    favorite: "Fireball",
+                    favorite: "Vodka Cranberry",
+                    favorite: "Ginger Ale & Whisky"
+                ]
+            },
+            friend: {
+                name: "Christine",
+                favorites: [
+                    favorite: "Fireball",
+                    favorite: "Cherry Purp",
+                    favorite: "Beer"
+                ]
+            },
+            friend: {
+                name: "Momoh",
+                favorites: [
+                    favorite: "Corona Beer",
+                    favorite: "Rum & Coke",
+                    favorite: "Ginger Ale & Whisky"
+                ]
+            }
+        ]
+        favorites: [
+            favorite: "Fireball",
+            favorite: "Vodka Cranberry",
+            favorite: "Ginger Ale & Whisky"
+        ]
+
+    }
+    customerID: "stripeToken"
+    currentCode: "PurpleGiraffe"
+}
+
+
+{
+    _id: "Josiah Jenkins"
+    name: "User Name"
+    email: "jjenkins@jmail.com"
+    profile: {
+        friends: [
+            friend: {
+                name: "Sam",
+                favorites: [
+                    favorite: "Fireball",
+                    favorite: "Vodka Cranberry",
+                    favorite: "Ginger Ale & Whisky"
+                ]
+            },
+            friend: {
+                name: "John",
+                favorites: [
+                    favorite: "Fireball",
+                    favorite: "Vodka Cranberry",
+                    favorite: "Ginger Ale & Whisky"
+                ]
+            },
+            friend: {
+                name: "Christine",
+                favorites: [
+                    favorite: "Fireball",
+                    favorite: "Cherry Purp",
+                    favorite: "Beer"
+                ]
+            },
+            friend: {
+                name: "Momoh",
+                favorites: [
+                    favorite: "Corona Beer",
+                    favorite: "Rum & Coke",
+                    favorite: "Ginger Ale & Whisky"
+                ]
+            }
+        ]
+        favorites: [
+            favorite: "Fireball",
+            favorite: "Vodka Cranberry",
+            favorite: "Ginger Ale & Whisky"
+        ]
+
+    }
+    customerID: "stripeToken"
+    currentCode: "PurpleGiraffe"
+}
+
+
+{
+    _id: "smokehouse",
+    name: "Smokehouse Tavern",
+    email: "hellp@smokehousetavern.com",
+    location: "100 Pawtucket St",
+    phone: "413-475-4245",
+    drinks: [
+        drink: {
+            name: "Whiskey",
+            price: 5,
+            description: "This is an awesome drink"
+        },
+        drink: {
+            name: "Whiskey",
+            price: 6,
+            description: "Delicious"
+        },
+        drink: {
+            name: "Whiskey",
+            price: 6,
+            description: "Delicious"
+        },
+        drink: {
+            name: "Whiskey",
+            price: 6,
+            description: "Delicious"
+        }
+    ]
+    ratings: [
+
+        rating: {
+            name: "Josiah Jenkins",
+            stars: 4,
+            description: "Great happy hour deals!!"
+        },
+        rating: {
+            name: "Josiah Jenkins",
+            stars: 4,
+            description: "Great happy hour deals!!"
+        },
+        rating: {
+            name: "Josiah Jenkins",
+            stars: 4,
+            description: "Great happy hour deals!!"
+        },
+        rating: {
+            name: "Josiah Jenkins",
+            stars: 4,
+            description: "Great happy hour deals!!"
+        }
+
+    ]
+
+}
+
+{
+    _id: "safe",
+    name: "The Lock and Safe",
+    email: "hello@thesafe.com",
+    location: "100 Pawtucket St",
+    phone: "413-475-4245",
+    drinks: [
+        drink: {
+            name: "Whiskey",
+            price: 5,
+            description: "This is an awesome drink"
+        },
+        drink: {
+            name: "Whiskey",
+            price: 6,
+            description: "Delicious"
+        },
+        drink: {
+            name: "Whiskey",
+            price: 6,
+            description: "Delicious"
+        },
+        drink: {
+            name: "Whiskey",
+            price: 6,
+            description: "Delicious"
+        }
+    ]
+    ratings: [
+
+        rating: {
+            name: "Josiah Jenkins",
+            stars: 4,
+            description: "Great happy hour deals!!"
+        },
+        rating: {
+            name: "Jacob Horth",
+            stars: 5,
+            description: "Reasonable Prices, great staff"
+        }
+
+    ]
+
+}
+
+{
+    _id: "safe",
+    name: "The Lock and Safe",
+    email: "hello@thesafe.com",
+    location: "100 Pawtucket St",
+    phone: "413-475-4245",
+    drinks: [
+        drink: {
+            name: "Whiskey",
+            price: 5,
+            description: "This is an awesome drink"
+        },
+        drink: {
+            name: "Whiskey",
+            price: 6,
+            description: "Delicious"
+        },
+        drink: {
+            name: "Whiskey",
+            price: 6,
+            description: "Delicious"
+        },
+        drink: {
+            name: "Whiskey",
+            price: 6,
+            description: "Delicious"
+        }
+    ]
+    ratings: [
+
+        rating: {
+            name: "Josiah Jenkins",
+            stars: 4,
+            description: "Great happy hour deals!!"
+        },
+        rating: {
+            name: "Jacob Horth",
+            stars: 5,
+            description: "Reasonable Prices, great staff"
+        }
+
+    ]
+
+}
+{
+
+{
+    _id: "barName",
+    name: "Bar Name",
+    email: "bar@name.com",
+    location: "100 Pawtucket St",
+    phone: "413-475-4245",
+    drinks: [
+        drink: {
+            name: "Whiskey",
+            price: 5,
+            description: "This is an awesome drink"
+        },
+        drink: {
+            name: "Whiskey",
+            price: 6,
+            description: "Delicious"
+        },
+        drink: {
+            name: "Whiskey",
+            price: 6,
+            description: "Delicious"
+        },
+        drink: {
+            name: "Whiskey",
+            price: 6,
+            description: "Delicious"
+        }
+    ]
+    ratings: [
+
+        rating: {
+            name: "Josiah Jenkins",
+            stars: 4,
+            description: "Great happy hour deals!!"
+        },
+        rating: {
+            name: "Josiah Jenkins",
+            stars: 4,
+            description: "Great happy hour deals!!"
+        },
+        rating: {
+            name: "Josiah Jenkins",
+            stars: 4,
+            description: "Great happy hour deals!!"
+        },
+        rating: {
+            name: "Josiah Jenkins",
+            stars: 4,
+            description: "Great happy hour deals!!"
+        }
+
+    ]
+
+}
+
+{
+    _id: "barName",
+    name: "Bar Name",
+    email: "bar@name.com",
+    location: "100 Pawtucket St",
+    phone: "413-475-4245",
+    drinks: [
+        drink: {
+            name: "Whiskey",
+            price: 5,
+            description: "This is an awesome drink"
+        },
+        drink: {
+            name: "Whiskey",
+            price: 6,
+            description: "Delicious"
+        },
+        drink: {
+            name: "Whiskey",
+            price: 6,
+            description: "Delicious"
+        },
+        drink: {
+            name: "Whiskey",
+            price: 6,
+            description: "Delicious"
+        }
+    ]
+    ratings: [
+
+        rating: {
+            name: "Josiah Jenkins",
+            stars: 4,
+            description: "Great happy hour deals!!"
+        },
+        rating: {
+            name: "Josiah Jenkins",
+            stars: 4,
+            description: "Great happy hour deals!!"
+        },
+        rating: {
+            name: "Josiah Jenkins",
+            stars: 4,
+            description: "Great happy hour deals!!"
+        },
+        rating: {
+            name: "Josiah Jenkins",
+            stars: 4,
+            description: "Great happy hour deals!!"
+        }
+
+    ]
+
+}
+
+{
+    _id: "barName",
+    name: "Bar Name",
+    email: "bar@name.com",
+    location: "100 Pawtucket St",
+    phone: "413-475-4245",
+    drinks: [
+        drink: {
+            name: "Whiskey",
+            price: 5,
+            description: "This is an awesome drink"
+        },
+        drink: {
+            name: "Whiskey",
+            price: 6,
+            description: "Delicious"
+        },
+        drink: {
+            name: "Whiskey",
+            price: 6,
+            description: "Delicious"
+        },
+        drink: {
+            name: "Whiskey",
+            price: 6,
+            description: "Delicious"
+        }
+    ]
+    ratings: [
+
+        rating: {
+            name: "Josiah Jenkins",
+            stars: 4,
+            description: "Great happy hour deals!!"
+        },
+        rating: {
+            name: "Josiah Jenkins",
+            stars: 4,
+            description: "Great happy hour deals!!"
+        },
+        rating: {
+            name: "Josiah Jenkins",
+            stars: 4,
+            description: "Great happy hour deals!!"
+        },
+        rating: {
+            name: "Josiah Jenkins",
+            stars: 4,
+            description: "Great happy hour deals!!"
+        }
+
+    ]
+
+}

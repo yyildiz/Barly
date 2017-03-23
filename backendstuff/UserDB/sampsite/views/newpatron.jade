@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h3=title
+  form#form_add_patron(name="addpatron", method="post", action="/addpatron")
+    span Name
+    span &nbsp;
+    input#input_name(type="text", placeholder="Patron", name="patron")
+    br
+    br
+    span Drink
+    span &nbsp;
+    input#input_drink(type="text", placeholder="Drink",name="drink")
+    br
+    br
+    span Current Code
+    span &nbsp;
+    input#input_currentcode(type="text", placeholder="Current Code", name="currentcode")
+    br
+    br
+    button#submit_patron(type="submit") Submit
