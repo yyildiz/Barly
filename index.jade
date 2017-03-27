@@ -6,12 +6,7 @@ html
     link(rel="stylesheet" type="text/css" href="css/index.css")
     link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN", crossorigin="anonymous")
   body
-    .nav
-      .title Bar.ly
-      .search
-        i(class="fa fa-search icon" aria-hidden="true")
-      .profile
-        i(class="fa fa-user-o icon" aria-hidden="true").icon
+    include navigation
     .bars-content
       .filter-section
         .current-city Lowell, MA
@@ -23,7 +18,7 @@ html
           .current-count 1 - 5 of
           .total-count 5 near you
         .show-map Show map
-      .bar
+      a(href="./singlebar.html").bar
         .img-section
           img(src="./img/bars/dudleys.png")
           .rating
@@ -35,7 +30,7 @@ html
           .card-min
             .title $10
             .bottom-text Card min.
-      .bar
+      a(href="./singlebar.html").bar
         .img-section
           img(src="./img/bars/beerworks.jpg")
           .rating
@@ -47,7 +42,7 @@ html
           .card-min
             .title $0
             .bottom-text Card min.
-      .bar
+      a(href="./singlebar.html").bar
         .img-section
           img(src="./img/bars/millcity.jpg")
           .rating
@@ -59,7 +54,7 @@ html
           .card-min
             .title $7
             .bottom-text Card min.
-      .bar
+      a(href="./singlebar.html").bar
         .img-section
           img(src="./img/bars/oldcourt.jpg")
           .rating
@@ -71,7 +66,7 @@ html
           .card-min
             .title $10
             .bottom-text Card min.
-      .bar
+      a(href="./singlebar.html").bar
         .img-section
           img(src="./img/bars/smokehouse.jpg")
           .rating

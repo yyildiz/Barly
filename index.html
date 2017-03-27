@@ -7,11 +7,18 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
   </head>
   <body>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="./js/sidebar.js"></script>
     <div class="nav">
       <div class="title">Bar.ly</div>
       <div class="search"><i aria-hidden="true" class="fa fa-search icon"></i></div>
-      <div class="profile"><i aria-hidden="true" class="fa fa-user-o icon icon"></i></div>
+      <div class="settings"><i aria-hidden="true" class="fa fa-bars icon"></i></div>
     </div>
+    <div class="sidebar">
+      <div class="profile-content"><span class="welcome">Welcome<span class="name">Yusuf</span></span><img src="img/profile.jpg"/></div><a href="./" class="item active">Payment Methods</a><a href="./" class="item">History</a><a href="./" class="item">Settings</a>
+      <div class="copyright">&copy; Barly 2017</div>
+    </div>
+    <div class="background"></div>
     <div class="bars-content">
       <div class="filter-section">
         <div class="current-city">Lowell, MA</div>
@@ -26,8 +33,7 @@
           <div class="total-count">5 near you</div>
         </div>
         <div class="show-map">Show map</div>
-      </div>
-      <div class="bar">
+      </div><a href="./singlebar.html" class="bar">
         <div class="img-section"><img src="./img/bars/dudleys.png"/>
           <div class="rating"></div>
         </div>
@@ -40,9 +46,7 @@
             <div class="title">$10</div>
             <div class="bottom-text">Card min.</div>
           </div>
-        </div>
-      </div>
-      <div class="bar">
+        </div></a><a href="./singlebar.html" class="bar">
         <div class="img-section"><img src="./img/bars/beerworks.jpg"/>
           <div class="rating"></div>
         </div>
@@ -55,9 +59,7 @@
             <div class="title">$0</div>
             <div class="bottom-text">Card min.</div>
           </div>
-        </div>
-      </div>
-      <div class="bar">
+        </div></a><a href="./singlebar.html" class="bar">
         <div class="img-section"><img src="./img/bars/millcity.jpg"/>
           <div class="rating"></div>
         </div>
@@ -70,9 +72,7 @@
             <div class="title">$7</div>
             <div class="bottom-text">Card min.</div>
           </div>
-        </div>
-      </div>
-      <div class="bar">
+        </div></a><a href="./singlebar.html" class="bar">
         <div class="img-section"><img src="./img/bars/oldcourt.jpg"/>
           <div class="rating"></div>
         </div>
@@ -85,9 +85,7 @@
             <div class="title">$10</div>
             <div class="bottom-text">Card min.</div>
           </div>
-        </div>
-      </div>
-      <div class="bar">
+        </div></a><a href="./singlebar.html" class="bar">
         <div class="img-section"><img src="./img/bars/smokehouse.jpg"/>
           <div class="rating"></div>
         </div>
@@ -100,8 +98,7 @@
             <div class="title">$15</div>
             <div class="bottom-text">Card min.</div>
           </div>
-        </div>
-      </div>
+        </div></a>
     </div>
   </body>
 </html>

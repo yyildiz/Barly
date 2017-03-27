@@ -172,187 +172,69 @@ body {
   display: none;
 }
 
-ul {
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  display: inline;
-  margin-right: 15px;
-}
-
-.bar-content {
+.checkout-content {
   position: absolute;
+  left: 0;
   top: 150px;
-  left: 0;
+  width: 100%;
   height: calc(100% - 150px);
-  width: 100%;
 }
 
-.bar-content .menu {
-  height: 100px;
+.drink {
   width: 100%;
-  background: #eee;
-  font-size: 2.2em;
-  font-weight: bold;
+  height: 350px;
   display: flex;
-  align-items: center;
-  box-sizing: border-box;
-  margin-top: -1px;
-}
-
-.bar-content .menu ul li {
-  line-height: 100px;
-  padding: 0 30px;
-}
-
-.bar-content .menu ul li.current {
-  background: #E84C3D;
-  height: 100px;
-  display: inline-block;
-  color: white;
-}
-
-.bar-content .header {
-  position: relative;
-  height: 600px;
-  background: url(../img/bar-headers/lowellbeerworks.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  padding-left: 50px;
-}
-
-.bar-content .header img {
-  width: 100%;
-}
-
-.bar-content .header::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 2;
-}
-
-.bar-content .header a.back-to-results {
-  color: white;
-  font-size: 2.5em;
-  position: relative;
-  padding: 30px 0 0 0;
-  z-index: 3;
-  display: inline-block;
-  text-decoration: none;
-}
-
-.bar-content .header .name {
-  color: white;
-  font-size: 4.5em;
-  z-index: 3;
-  position: relative;
-  padding: .5 1em 0 0;
-  margin-top: 2em;
-  font-weight: bold;
-}
-
-.bar-content .header .address {
-  color: white;
-  font-size: 2.5em;
-  z-index: 3;
-  position: relative;
-  padding-right: 1.5em;
-  font-weight: bold;
-  display: inline-block;
-}
-
-.bar-content .header .phone {
-  color: white;
-  z-index: 3;
-  position: relative;
-  display: inline-block;
-}
-
-.bar-content .header .phone i {
-  font-size: 2.5em;
-  font-weight: bold;
-}
-
-.bar-content .header .rating {
-  margin-top: 80px;
-}
-
-.bar-content .header .rating i {
-  color: yellow;
-  font-size: 3em;
-  position: relative;
-  z-index: 3;
-  font-weight: bold;
-  display: inline-block;
-}
-
-.bar-content .header .rating .review-count {
-  color: white;
-  position: relative;
-  z-index: 3;
-  display: inline-block;
-  font-size: 2.5em;
-  margin-left: 20px;
-  font-weight: bold;
-}
-
-.bar-content .header .rating .google-reviews {
-  display: inline;
-  font-weight: normal;
-}
-
-.bar-content .most-popular {
-  font-size: 2.5em;
-  width: 100%;
-  height: 100px;
-  background: #eee;
-  display: flex;
-  align-items: center;
-  padding-left: 20px;
-  box-sizing: border-box;
-}
-
-.bar-content .most-popular i {
-  color: #03A9F4;
-  display: inline-block;
-}
-
-.bar-content .most-popular .text {
-  display: inline-block;
-  margin-left: 20px;
-  color: #555;
-  font-weight: bold;
-}
-
-.bar-content .drink {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 35px 20px;
+  align-items: center;
   box-sizing: border-box;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #333;
 }
 
-.bar-content .drink .title {
-  font-size: 2.75em;
-  font-weight: bold;
-  color: #03A9F4;
+.drink .info {
+  text-align: center;
+  width: 50%;
 }
 
-.bar-content .drink .description {
+.drink .info img {
+  height: 250px;
+}
+
+.drink .info .name {
+  font-size: 2.5em;
+}
+
+.drink .input-group {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.drink .input-group .btn {
+  height: 120px;
+  width: 120px;
   font-size: 2em;
 }
 
-.bar-content .drink .price {
+.drink .input-group input {
+  height: 120px;
+  max-width: 30%;
+  text-align: center;
   font-size: 3em;
-  font-weight: bold;
-  color: #555;
+}
+
+.checkout-area {
+  width: 100%;
+  padding: 100px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.checkout-btn {
+  width: 80%;
+  color: white;
+  background-color: #E84C3D;
+  font-size: 4em;
+  border: 2px solid #ab2114;
+  border-radius: 10px;
+  padding: 30px 0;
 }

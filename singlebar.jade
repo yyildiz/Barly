@@ -6,17 +6,53 @@ html
     link(rel="stylesheet" type="text/css" href="css/singlebar.css")
     link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN", crossorigin="anonymous")
   body
-    .nav
-      .title Bar.ly
-      .search
-        i(class="fa fa-search icon" aria-hidden="true")
-      .profile
-        i(class="fa fa-user-o icon" aria-hidden="true").icon
+    include navigation
     .bar-content
       .menu
         ul
-          li Menu
+          li.current Menu
           li About
           li Reviews
       .header
-        .back-to-results < Back to search results
+        a(href="./index.html").back-to-results < Back to search results
+        .name Lowell Beer Works
+        .address 203 Cabot St
+        .phone 
+            i(class="fa fa-phone" aria-hidden="true")  (978) 937-2337
+        .rating
+            i(class="fa fa-star" aria-hidden="true")
+            i(class="fa fa-star" aria-hidden="true")
+            i(class="fa fa-star" aria-hidden="true")
+            i(class="fa fa-star" aria-hidden="true")
+            i(class="fa fa-star-half-o" aria-hidden="true")
+            .review-count 59 
+                .google-reviews Google Reviews
+      .most-popular
+        i(class="fa fa-glass" aria-hidden="true")
+        .text Most Popular
+      .drinks
+        .drink
+          .main-description
+              .title Bud Lite
+              .description Single Malt and Single Hop Series w/ Great Flavor
+          .price $6.25
+        .drink
+          .main-description
+              .title Single Hop Pale Ale
+              .description Single Malt and Single Hop Series w/ Great Flavor
+          .price $10.00
+        .drink
+          .main-description
+            .title Cranberry Vodka
+            .description Single Malt and Single Hop Series w/ Great Flavor
+          .price $9.25
+        .drink
+          .main-description
+            .title Blue Moon
+            .description Single Malt and Single Hop Series w/ Great Flavor
+          .price $7.25
+        .drink
+          .main-description
+            .title Corona
+            .description Single Malt and Single Hop Series w/ Great Flavor
+          .price $5.75
