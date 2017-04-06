@@ -55,7 +55,9 @@ router.post('/register', function(req, res){
 
 passport.use(new LocalStrategy(
     function(email, password, done) {
+        console.log("Outside Logging in")
         User.getUserByEmail(email, function(err, user){
+            console.log("Logging in")
             if(err) throw err;
             if(!user){
                 return done(null, false, {message: 'Unknown User'});
@@ -77,6 +79,7 @@ passport.serializeUser(function(user, done) {
 });
 
 passport.deserializeUser(function(id, done) {
+    console.log("Hi")
     User.getUserById(id, function(err, user) {
         done(err, user);
     });
