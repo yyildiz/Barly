@@ -79,7 +79,6 @@ passport.serializeUser(function(user, done) {
 });
 
 passport.deserializeUser(function(id, done) {
-    console.log("Hi")
     User.getUserById(id, function(err, user) {
         done(err, user);
     });
