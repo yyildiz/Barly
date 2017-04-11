@@ -17,6 +17,8 @@ var db = mongoose.connection;
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var singlebar = require('./routes/singlebar');
+var checkout = require('./routes/checkout');
+
 
 // Initialize Application
 var app = express();
@@ -77,8 +79,18 @@ app.use(function (req, res, next) {
 });
 
 app.use('/', routes);
-app.use('/users', users);
-app.use('/singlebar', singlebar)
+
+app.get('/users', function(req, res) {
+    res.render('users');
+});
+
+app.get('/singlebar', function(req, res) {
+    res.render('singlebar');
+});
+
+app.get('/checkout', function(req, res) {
+    res.render('checkout');
+});
 
 // Set Port
 app.set('port', (process.env.PORT || 3000));
