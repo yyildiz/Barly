@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h3.
+    Bars
+  ul
+    each bars, i in barslist
+        li.bars_list_item
+            a(href="#") #{bars.name} is located at #{bars.street}. Give them a call at #{bars.phone}!
