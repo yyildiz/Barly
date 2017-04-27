@@ -1,0 +1,80 @@
+doctype(html)
+html
+  head
+    meta(charset="utf-8")
+    title A Revolutionary New Drink Ordering App - Barly
+    link(rel="stylesheet" type="text/css" href="css/index.css")
+    link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN", crossorigin="anonymous")
+  body
+    include navigation
+    .bars-content
+      .filter-section
+        .current-city Lowell, MA
+        .filter-icon
+          .filter-image
+          .filter-text Filter
+      .bars-near
+        .bar-count
+          .current-count 1 - 5 of
+          .total-count 5 near you
+        .show-map Show map
+      a(href="./singlebar").bar
+        .img-section
+          img(src="./img/bars/dudleys.png")
+          .rating
+        .info-section
+          .name Dudley's Restaurant
+          .description Bar, Medium sized, DJ
+          .distance 0.6 miles ~ 2-3 mins
+          .price $$$$
+          .card-min
+            .title $10
+            .bottom-text Card min.
+      a(href="./singlebar").bar
+        .img-section
+          img(src="./img/bars/beerworks.jpg")
+          .rating
+        .info-section
+          .name Lowell Beer Works
+          .description Restaurant, Bar
+          .distance 0.6 miles ~ 2-3 mins
+          .price $$$$
+          .card-min
+            .title $0
+            .bottom-text Card min.
+      a(href="./singlebar").bar
+        .img-section
+          img(src="./img/bars/millcity.jpg")
+          .rating
+        .info-section
+          .name Mill City Ballroom
+          .description Club, Bar, Medium-sized
+          .distance 0.6 miles ~ 2-3 mins
+          .price $$$$
+          .card-min
+            .title $7
+            .bottom-text Card min.
+      a(href="./singlebar").bar
+        .img-section
+          img(src="./img/bars/oldcourt.jpg")
+          .rating
+        .info-section
+          .name The Old Court Irish Pub
+          .description Restaurant, Bar, Small-sized
+          .distance 0.6 miles ~ 2-3 mins
+          .price $$$$
+          .card-min
+            .title $10
+            .bottom-text Card min.
+      a(href="./singlebar").bar
+        .img-section
+          img(src="./img/bars/smokehouse.jpg")
+          .rating
+        .info-section
+          .name The Smokehouse Tavern
+          .description Club, Bar, Large-sized
+          .distance 0.6 miles ~ 2-3 mins
+          .price $$$$
+          .card-min
+            .title $15
+            .bottom-text Card min.

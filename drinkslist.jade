@@ -1,9 +1,0 @@
-extends layout
-
-block content
-  h3.
-    Drinks
-  ul
-    each drink, i in drinkslist
-        li.drink_list_item
-            a(href="#") #{drink.drink_name} is currently #{drink.price}
