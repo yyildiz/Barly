@@ -1,0 +1,25 @@
+doctype(html)
+html
+  head
+    meta(charset="utf-8")
+    title A Revolutionary New Drink Ordering App - Barly
+    link(rel="stylesheet" type="text/css" href="css/checkout.css")
+    link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN", crossorigin="anonymous")
+    
+  body
+    include navigation
+    script(src="./js/increment.js")
+    .checkout-content
+        .drink
+            .info
+                img(src="./img/budlite.jpg")
+                .name Bud Lite
+            .input-group
+                button.decrement.btn
+                    i(class="fa fa-minus" aria-hidden="true")
+                input(type=text value=1)
+                button.increment.btn
+                    i(class="fa fa-plus" aria-hidden="true")
+                                
+        .checkout-area
+            button.checkout-btn PayPal Checkout
