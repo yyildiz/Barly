@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800");
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: 10;
+  height: 150px;
+  width: 100%;
+  background: #E84C3D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav .title {
+  font-size: 4em;
+  font-weight: bold;
+  color: white;
+}
+
+.nav .search {
+  right: .5em;
+  color: white;
+  font-size: 3.5em;
+  position: absolute;
+}
+
+.nav .profile {
+  left: .5em;
+  color: white;
+  font-size: 3.5em;
+  position: absolute;
+}
